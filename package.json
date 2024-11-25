@@ -1,0 +1,16 @@
+{
+  "name": "warbler-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.3"
+  }
+}
